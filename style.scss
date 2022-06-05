@@ -1,3 +1,4 @@
+
 .google_image{
     height: 100%;
     width: 350px;
@@ -7,35 +8,101 @@
 }
 
 .img{
-    margin-top: 77px;
+    margin-top: 45px;
 }
 
+.nav-item{
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    align-items: center;
+    margin-top: 11px;
+    .nav-link{
+        color: #202124;
+    }
 
-.search-txt{
-    border: 1px solid #dfe1e5;
-    height: 44px;
-    border-radius: 24px;
-    padding: 10px;
+    .nav-link:hover{
+        text-decoration: underline;
+        color: #202124;
+    }
+
+    .link1{
+        margin-left: -11.5px;
+    }
+
+    .link2{
+        margin-right: -21px;
+    }
+
+
+
+}
+
+.google{
+    min-width: 54px;
+    height: 36px;
+    line-height: 27px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.google:hover{
+        border-color: #dfe1e5;
+    }
+
+.google-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 0;
+
+    .google1{
+        margin-left: 10px;
+    }
+}
+
+.google-header{
+    height: 100%;
+    width: 100px;
+}
+
+.box{
+    margin: -60px auto;
     width: 100%;
     max-width: 584px;
-    background: white;
-}
-
-.search-txt:hover{
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-.search-txt:focus{
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-.search-btn{
-    color: #9aa0a6;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    position: relative;
-    border: none;
+    height: 44px;
     background-color: white;
-    float: right;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    i {
+        font-size: 15px;
+        color: #9aa0a6;
+        padding: 0;
+    }
+    input{
+        flex: 1;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding-left: 10px;
+    }
+}
+
+.box:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.box:focus{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
 }
